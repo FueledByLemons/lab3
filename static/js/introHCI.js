@@ -14,13 +14,13 @@ function initializePage() {
 		$("#testjs").text("Please wait...");
 		$("#testjs").addClass("disabled");
 		$(".jumbotron p").toggleClass("active");
-
-    // Add any additional listeners here
-    // example: $("#div-id").click(functionToCall);
-    $("a.thumbnail").click(projectClick);
-
-     $("#submitBtn").click(updateProject); 
   })
+
+  // Add any additional listeners here
+  // example: $("#div-id").click(functionToCall);
+  $("a.thumbnail").click(projectClick);
+
+   $("#submitBtn").click(updateProject); 
 } 
 
 function updateProject(e) {
